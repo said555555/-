@@ -1,0 +1,21 @@
+int main() {
+    int a;
+    double b;
+    const double c = 5.0;
+    const double d = 2.5;
+
+  
+    std::cout << "Введите целое число a: ";
+    std::cin >> a;
+
+  
+    std::cout << "Введите число b (с плавающей точкой): ";
+    std::cin >> b;
+
+    double result = (a + b) / (c - d);
+
+
+    std::cout << "Результат (a + b) / (c - d) = " << result << std::endl;
+
+    return 0;
+}
