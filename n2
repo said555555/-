@@ -1,0 +1,23 @@
+#include <iostream>
+#include <iomanip> 
+
+int main() {
+    const double PI = 3.14159;
+    double radius;
+
+    
+    std::cout << "Введите радиус окружности: ";
+    std::cin >> radius;
+
+  
+    double circumference = 2 * PI * radius;
+
+    double area = PI * radius * radius;
+
+   
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "Длина окружности: " << circumference << std::endl;
+    std::cout << "Площадь круга: " << area << std::endl;
+
+    return 0;
+}
